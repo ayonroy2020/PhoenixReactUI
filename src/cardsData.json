@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "title": "First Card Title",
+      "text": "This is the first card's text.",
+      "image": "src/images/arnab.png",
+      "buttonText": "Learn More",
+      "buttonLink": "https://example.com/first"
+    },
+    {
+      "id": 2,
+      "title": "Second Card Title",
+      "text": "This is the second card's text.",
+      "image": "https://via.placeholder.com/100x180",
+      "buttonText": "Discover",
+      "buttonLink": "https://example.com/second"
+    },
+    {
+      "id": 3,
+      "title": "Third Card Title",
+      "text": "This is the third card's text.",
+      "image": "https://via.placeholder.com/100x180",
+      "buttonText": "Read More",
+      "buttonLink": "https://example.com/third"
+    },
+    {
+      "id": 4,
+      "title": "Third Card Title",
+      "text": "This is the third card's text.",
+      "image": "https://via.placeholder.com/100x180",
+      "buttonText": "Read More",
+      "buttonLink": "https://example.com/third"
+    },
+    {
+      "id": 5,
+      "title": "Second Card Title",
+      "text": "This is the second card's text.",
+      "image": "https://via.placeholder.com/100x180",
+      "buttonText": "Discover",
+      "buttonLink": "https://example.com/second"
+    }
+]
+  

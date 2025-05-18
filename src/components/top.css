@@ -1,0 +1,28 @@
+.contaner{
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 100%;
+    background-color: #00043c;
+}
+
+.phone{
+    color: aliceblue;
+    font-size: small;
+}
+
+.phone a {
+    display: inline-block;
+    margin-right: 1rem; /* Add space between links */
+    color: #fff; /* Adjust color as needed */
+    text-decoration: none; /* Remove underline */
+  }
+
+.social-media{
+    color: aliceblue;
+}
+
+.nav-link:hover{
+    color: #9ae742;
+}

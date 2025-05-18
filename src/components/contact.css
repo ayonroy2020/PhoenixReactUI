@@ -1,0 +1,132 @@
+.contact-sec-1{
+    margin: 50px 0px;
+}
+
+.part-cont{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.part-cont {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.icon-size{
+    height: 36px;
+    width: 36px;
+}
+
+.span-color{
+    padding-top: 12px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: black;
+}
+
+.contact-p{
+    padding: 12px;
+    font-weight: 500;
+    color: rgb(117, 116, 116);
+}
+
+/* section of from *************************** */
+
+.form-sec{
+    padding: 0px 120px;
+    /* width: 80%; */
+    align-items: center;
+}
+.contact-form-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .form-section {
+    flex: 1;
+    background-color: #3aa85c; /* Green background */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form-section h2 {
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .send-message-btn {
+    padding: 10px 20px;
+    background-color: #f0ad4e; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    align-self: flex-start;
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+/* location section  */
+.location-sec{
+    text-align: center;
+    padding: 0px 120px;
+    margin-bottom: 120px;
+}
+
+iframe{
+    width: 100%;
+    height:450px;
+    /* border: 5px solid green; */
+    /* allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" */
+}

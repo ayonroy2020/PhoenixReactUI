@@ -1,0 +1,22 @@
+.member{
+    padding: 0px 120px;
+}
+
+.member h2{
+    text-align: center;
+    color: aqua;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-between; /* Space between the cards */
+    flex-wrap: wrap; /* Wrap the cards when the screen is small */
+    gap: 20px; /* Optional: Adds space between cards */
+    padding: 20px; /* Optional: Padding around the card container */
+  }
+  
+  .card-list .card {
+    flex: 1 1 22%; 
+    min-width: 250px; 
+    margin-bottom: 20px; 
+  }

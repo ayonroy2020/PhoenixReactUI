@@ -1,0 +1,59 @@
+/* Section 1 ***************************************************/
+.sec-camp1{
+  background-image: url('../images/bg-blue.png');
+    height: 80vh;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+    height: 80vh;
+}
+
+.container1 div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.poster-design{
+  height: 80vh;
+}
+
+.part1 h2{
+  font-size: xx-large;
+  font-weight: 600;
+  color: rgb(21, 170, 120);
+}
+
+/* Section 2 ***************************************************/
+.sec-camp2 .bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Optional: Adjust the section height as needed */
+  background-color: #2e579d;
+}
+
+
+.center-box {
+  align-items: center;/* Optional: Set a background color */
+}
+
+/* *********** */
+.camp-msg{
+  height: 20vh;
+  background-color: #fd645b;
+  text-align: center;
+  padding-top: 45px;
+}
+
+.camp-msg h2{
+  font-size: 2rem;
+  font-weight: 600;
+}

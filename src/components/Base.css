@@ -1,0 +1,465 @@
+/* Home page css ******************************************/
+
+.background-slider {
+  height: 700px;
+  width: auto;
+  object-fit: cover;
+  transition: background-image 1s ease-in-out;
+}
+
+.image-size{
+    height: 700px;
+    width: auto;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 100px; /* Adjust as needed */
+  transform: translateY(-50%);
+  text-align: left;
+  color: white; /* Change color as needed */
+  /* background-color: rgba(0, 0, 0, 0.5); Optional: background color with transparency */
+  padding: 20px; /* Optional: padding */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+
+.text-container h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  font-weight: 800; /* Adjust as needed */
+}
+
+.text-container p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+  font-weight: 600; /* Adjust as needed */
+  letter-spacing: 3px;
+}
+
+Button{
+  text-align: center;
+}
+#p{
+  height: 50px;
+  width: 270px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 25px;
+  background-color: rgb(231, 86, 86);
+}
+
+/* section 2 *************************************************************************/
+
+.container-2 {
+  display: flex;
+  justify-content: space-between; /* Space between the divs */
+  align-items: center; /* Align items vertically centered */
+  height: 100vh;
+  padding: 0 110px; 
+  /* color: #fff; */
+  /* background-color: #F8D41F; */
+}
+
+.left-div{
+  width: 60%; /* Each div takes up 50% of the container's width */
+  padding: 0 40px; /* Add some padding */
+  text-align: left;
+  /* background-color: #F8D41F; */
+  /* height: 100vh; */
+}
+
+.subheading{
+  color: black;
+  font-size: small;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.heading-section h2{
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: rgb(252, 84, 62);
+}
+
+.parent {
+  display: flex; /* Use flexbox to align items in a row */
+  justify-content: space-between; /* Distribute space between the divs */
+  padding: 0 50px;
+}
+
+.parent div strong{
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgb(252, 84, 62);
+}
+.parent div p{
+  font-size: medium;
+  font-weight: 600;
+}
+
+
+/* button */
+.volunteer-2{
+  align-items: center;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+.right-div {
+  width: 40%; /* Each div takes up 50% of the container's width */
+  padding: 20px; /* Add some padding */
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; 
+}
+.form-background-image {
+  background-image: url('../images/moroccan-flower-dark.png'); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the entire div */
+  background-position: center; /* Center the image *//* Full width */
+  height: 100vh; /* Full viewport height */
+}
+
+.plogo{
+  height: 25rem;
+  /* margin: 50% 0; */
+}
+
+
+/* section -3 ****************************************************************************/
+.sec-3-contaner{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 0.5rem;
+  height: 65vh;
+  padding: 0 110px;
+  /* background-color: lightcyan; */
+}
+
+.sec-3-contaner div{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  color: white;
+  height: 65vh;
+}
+
+.sec-3-h3{
+  margin-top: 24px; /* Adjust this value as needed */
+  margin-bottom: 10px;
+}
+.sec-3-contaner div p{
+  padding: 0 24px 0 24px;
+  margin-bottom: -24px;
+} 
+
+.sec-3-contaner div img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.icon-img{
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  transform: translateY(40px);
+}
+
+#img1{
+  border: 5px solid #fd645b;
+}
+#img2{
+  border: 5px solid #4c7bcb;
+}
+#img3{
+  border: 5px solid #eec857;
+}
+#img4{
+  border: 5px solid #18a577;
+}
+
+
+.div1{
+  background-color: #fd645b;
+}
+.div2{
+  background-color: #4c7bcb ;
+}
+.div3{
+  background-color: #eec857;
+}
+.div4{
+  background-color: #18a577;
+}
+
+/* section 4 *********************************************************************************/
+
+.sec-4{
+  padding-top: 64px;
+}
+.sec-4-contaner{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 1rem;
+  height: 80vh;
+  padding: 0 110px;
+}
+
+.camp-p{
+  font-size: 1rem; /* Adjust font size */
+  font-weight: bold; /* Make the text bold */
+  color: #050505; /* Change text color */
+  text-align: center; /* Center align the text */
+  margin-bottom: 10px; /* Add space below the paragraph */
+  text-transform: uppercase; /* Transform text to uppercase */
+  letter-spacing: 2px;
+}
+
+.sec-4 h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #fd645b;
+  /* padding-bottom: 12px; */
+}
+
+.sec-4-contaner div{
+  /* background-color: #F8D41F; */
+  text-align: center;
+  box-shadow: 1px 1px 8px 8px #F0F3F4;
+  margin: 10px 0;
+}
+
+.sec-4-contaner div:hover{
+  background-color: #f3f7fd;
+}
+
+.sec-4-contaner div img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.curved-div {
+  transform: translate3d(0, 40px, 0);
+  border-top-left-radius: 120px;
+  overflow: hidden;
+}
+
+.camp-h3{
+  color: #030303;
+  margin-top: 12px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.sec-4-contaner div p{
+  padding: 12px 24px;
+}
+
+.sec-4-contaner div Button{
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 25px;
+}
+
+.sec-4-contaner div Button:hover{
+  background-color: #F8D41F;
+}
+
+
+/* section 5 ***********************************************************************************/
+.sec-5{
+  align-items: center;
+  height: 50vh;
+  padding: 0 110px;
+  background-image: url('../images/moroccan-flower-dark.png');
+  /* background-color: #F8D41F; */
+}
+
+.sec-5 h2{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 32px;
+  color: #fd645b;
+}
+
+
+.sec-5-contaner{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 1rem;
+  padding-top: 70px;
+  /* text-align: center; */
+}
+
+.sec-5-contaner div{
+  display: flex;
+  /* flex-direction: column;  */
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  /* background-color: #18a577; */
+  height: 24vh;
+  border-radius: 12px;
+}
+
+.sec-5-contaner div h3{
+  font-size: 1.5rem;
+  color: #fafafa;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.sec-5-contaner div p{
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.page-color1{
+  background-color: #1ECAE8;
+}
+.column{
+  flex-direction: column;
+}
+
+.page-color2{
+  background-color: #FF709D;
+}
+.page-color3{
+  background-color: #A773F4;
+}
+.page-color4{
+  background-color: #F9A81D ;
+}
+
+
+
+
+
+/* section 6 *******************************************************************************/
+.sec-6{
+  align-items: center; /* Align items vertically centered */
+  height: 90vh;
+  padding: 0 110px;
+  /* background-color: #F8D41F; */
+}
+
+.sec-6 p{
+  margin-top: 80px;
+}
+
+.sec-6 h2{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 16px;
+  color: #fd645b;
+}
+
+/* .sec-6-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 32px;
+} */
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 48px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  border-top-right-radius: 150px;
+  transition: border-top-left-radius 0.5s ease,border-top-right-radius 0.5s ease;
+}
+
+.card:hover{
+  border-top-left-radius: 150px;
+  border-top-right-radius: 0px;
+  transition: border-top-left-radius 0.5s ease,border-top-right-radius 0.5s ease;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  /* border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; */
+}
+
+.card-content {
+  transform: translate3d(0, -40px, 0);
+  text-align: center;
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.card-content p {
+  margin: 0;
+  color: #2c2c2c;
+}
+
+.card-footer {
+  padding: 10px;
+  color: #fff;
+}
+
+.yellow {
+  background-color:  #18a577;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.red {
+  background-color: #fd645b;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.blue {
+  background-color: #4c7bcb;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.green {
+  background-color: #f7c42c;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+
+
