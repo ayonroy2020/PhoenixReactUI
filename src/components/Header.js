@@ -32,9 +32,9 @@ function Header() {
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">Contact</Link>
               </li>
-              <li className="nav-item button">
+              {/* <li className="nav-item button">
                 <Link className="nav-link" to="/donate">Donate</Link>
-              </li>
+              </li> */}
             </ul>
           {/* </div> */}
         </div>

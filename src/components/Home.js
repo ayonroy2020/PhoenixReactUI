@@ -103,14 +103,14 @@ function Home() {
           </div>
           <img src={pujo2} alt='service-1'  />
         </div>
-        {/* <div>
+        <div>
           <div className='div3 '>
             <h3 className='sec-3-h3'>Start <br /> Donating</h3>
             <p>But nothing the copy said could convince her and so it didn’t take long until a few</p>
               <img src={d1} className='icon-img' id='img3' alt='v-1' />
           </div>
           <img src={pujo1} alt='service-1' />
-        </div> */}
+        </div>
         <div>
           <div className='div4 '>
             <h3 className='sec-3-h3'>Get <br /> Involved</h3>
